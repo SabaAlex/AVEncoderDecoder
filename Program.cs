@@ -1,6 +1,6 @@
-﻿using System;
+﻿using AVEncoderDecoder.Image;
 
-namespace Lab_CSharp
+namespace AVEncoderDecoder
 {
     class Program
     {
@@ -14,7 +14,7 @@ namespace Lab_CSharp
 
             var decoder = new Decoder()
             {
-                EncodedBlocks = encoder.EncodingBlocks,
+                DecodedBlocks = encoder.EncodingBlocks,
                 Image = new PPM(image.FileName, image.Width, image.Height, image.MaxValue),
             };
 
