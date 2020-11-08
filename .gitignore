@@ -5,6 +5,8 @@ obj/
 /.idea/
 *.sln
 
+Output
+
 .vs
 .vscode/*
 !.vscode/settings.json
@@ -15,4 +17,3 @@ obj/
 
 .history/
 
-output/
