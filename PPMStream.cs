@@ -57,7 +57,7 @@ public static class PPMStream
 
     public static void WritePPM(this PPM image)
     {
-        var complete = Path.Combine(projectPath, "output\\");
+        var complete = Path.Combine(projectPath, "Output\\");
 
         Directory.CreateDirectory(complete);
 
